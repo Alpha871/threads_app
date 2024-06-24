@@ -7,6 +7,7 @@ interface Props {
   bio: string;
   accountId: string;
   authUserId: string;
+  type?: "User" | "Community";
 }
 
 function ProfileHeader({
